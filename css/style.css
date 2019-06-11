@@ -1,0 +1,418 @@
+*{
+  font-family: Century Gothic
+}
+
+.container {
+  width: 1200px; 
+  margin: auto;
+}
+
+body {
+  background-image: url('../Images/kiri.jpg');
+  background-position: cover;
+  background-repeat: none;
+  background-size: 1950px auto;
+}
+
+header .menu img{
+  height: 80px; 
+  width: 100px; 
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-left: 10%;
+}
+
+li {
+  float: left;
+  margin-top: 1%;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15pt;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.contentTitle{
+	font-size: 10pt;
+}
+
+.part1{
+  width: 90%;
+  background-color: rgba(0,0,0, 0.5);
+  height: 600px;
+  float: left;
+  margin-top: 10%;
+  padding: 5%
+}
+
+.part1Left{
+  width: 50%;
+  float: left;
+}
+
+.articlePart1Title{
+  margin-top: 5%;
+}
+
+.part1Right{
+  width: 50%;
+  float: right;
+}
+.part1Right p {
+	display: none; background: black;
+	padding: 15px; color:white;
+	margin-top: -15%; margin-left:15%;
+	position: absolute;
+}
+.part1Right:hover p{display: block;}
+
+.part1FirstArtcile{
+  color: white;
+}
+
+.part1SecondArtcile{
+  color: white;
+}
+
+.articlePart1Content{
+  margin-top: 5%;
+}
+
+
+.btnPart1{
+  margin-top: 4%;
+  width: 100px;
+  height: 30px;
+}
+
+.btnPart1:hover{
+  margin-top: 4%;
+  width: 100px;
+  height: 30px;
+  background-color: red;
+  -webkit-transition: background 3s linear;
+  -moz-transition: background 3s linear;
+  -ms-transition: background 3s linear;
+  -o-transition: background 3s linear;
+  transition: background 3s linear;
+}
+
+button{
+  background-color: #3498DB;
+  color: white;
+}
+
+.imagePart1Right{
+  margin-top: 10%;
+  margin-left: 7%;
+  margin-right: 4%;
+}
+
+.part1RightTitle{
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+  margin-left: 7%;
+}
+
+.part1RightDetail{
+  text-align: center;
+  margin-top: 5%;
+  color: white;
+  margin-left: 7%;
+}
+
+.part2{
+  width: 70%;
+  background-color: rgba(0,0,0, 0.5);
+  height: 150px;
+  float: left;
+  margin-top: 5%;
+  padding: 15%;
+  color: white;
+}
+
+.part2Title{
+  margin-top: -20%;
+}
+
+.part2Content{
+  margin-top: 5%;
+}
+
+.btnPart2{
+  margin-top: 6%;
+  width: 150px;
+  height: 35px;
+  text-align:center;
+  margin-left: 41%;
+}
+
+.imgPart2{
+  background-image: url('../Images/seafood.jpg');
+  width: 50%;
+  height: 70%;
+  margin-left: 26%;
+  margin-top: 7%;
+}
+
+.imgPart2:hover{
+  background-image: url('../Images/seafood1.jpg');
+  width: 50%;
+  height: 70%;
+  margin-left: 26%;
+  margin-top: 7%;
+}
+
+.part3{
+  width: 90%;
+  background-color: rgba(0,0,0, 0.5);
+  height: 600px;
+  float: left;
+  margin-top: 5%;
+  padding: 5%
+}
+
+.part3Title{
+  color: black;
+  margin-bottom: 2%;
+  background-color: rgba(255,255,255, 0.5);
+}
+
+.part3Article{
+  float: left;
+  width: 55%;
+}
+
+.article1Part3{
+  margin-top: 5%;
+}
+
+.article1Part3Image{
+  float: left;
+}
+
+.article1Part3Content{
+  float: right;
+  margin-left: 48%;
+  margin-top: -42%;
+}
+
+.btnPart3{
+  margin-top: 6%;
+  width: 100px;
+  height: 30px;
+  text-align:center;
+}
+
+.btnPart3:hover{
+  margin-top: 6%;
+  width: 100px;
+  height: 30px;
+  text-align:center;
+  background-color: red;
+  transition: background 3s linear;
+}
+
+.article2Part3{
+  margin-top: 50%;
+}
+
+.part3Poster{
+  width: 45%;
+  height: 500px;
+  background-image: url('../Images/poster1.jpg');
+  background-size: 100% 500px;
+  float: right;
+  margin-top: 2%;
+}
+
+.part3Poster:hover{
+  width: 45%;
+  height: 500px;
+  background-image: url('../Images/poster2.jpg');
+  background-size: 100% 500px;
+  float: right;
+  margin-top: 2%;
+
+}
+
+.part4{
+  width: 90%;
+  background-color: rgba(0,0,0, 0.5);
+  height: 630px;
+  float: left;
+  margin-top: 5%;
+  padding: 5%;
+  color: white;
+}
+
+.section1{
+  float: left;
+  width: 40%;
+  position: relative;
+}
+
+.section1 img{
+	 position: relative;
+}
+
+.section1 p{
+  margin-top: 22%; top: 1px; left:10px; background-color: black; font-size: 12px; position: absolute;
+}
+
+.section1 img:hover{
+	opacity: 0.3;
+}
+.section1 p{display: none;}
+div:hover .section1 p{display: block;}
+
+.section2{
+  float: right;
+  width: 60%;
+}
+
+.posterLeft{
+  float: left;
+  width: 50%;
+  padding: 5%;
+  margin-left: 10%;
+}
+
+.posterLeft2{
+  margin-top: 10%;
+}
+
+.posterRight{
+  float: left;
+  width: 50%;
+  padding: 5%;
+  margin-left: 36%;
+  margin-top: -93%;
+}
+
+.posterRight1{
+  margin-left: 35%;
+}
+
+.posterRight2{
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
+.part5{
+  width: 90%;
+  background-color: rgba(0,0,0, 0.5);
+  height: 600px;
+  float: left;
+  margin-top: 5%;
+  padding: 5%;
+  color: white;
+}
+.foto {float: left; margin: 12px; border: 2px solid black; margin-right:4%;}
+
+
+.footer {
+  float:left;
+  width: 1200px; 
+  height: 50px; 
+  background-color: rgba(0,0,0, 0.5); 
+  overflow: hidden;
+  color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.leftFooter{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.leftFooter a{
+	text-decoration:none;
+	color: black;
+}
+
+.rightFooter{
+  width: 50%;
+  float: right;
+  text-align: center;
+}
+
+/*Pagination*/
+
+.center {
+  text-align: center;
+  z-index: 4
+}
+
+.pagination {
+  display: inline-block;
+  margin-top: 3%;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+
+.pagination a.active {
+  background-color: #3498DB;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
